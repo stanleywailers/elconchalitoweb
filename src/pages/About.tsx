@@ -12,8 +12,7 @@ const About = () => {
       <div className="about-section-image-container">
         <img src={AboutBackgroundImage} alt="" style={{borderRadius: '50%',
     // Personaliza el tamaño según tus necesidades
-    width:'600px',
-    height: '600px',}} />
+   }} />
       </div>
       <div className="about-section-text-container">
         <p className="primary-subheading">About</p>

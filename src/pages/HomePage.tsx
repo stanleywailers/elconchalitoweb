@@ -27,8 +27,7 @@ const Home = () => {
         <div className="home-image-section">
           <img src={BannerImage} alt="" style={{borderRadius: '50%',
     // Personaliza el tamaño según tus necesidades
-    width:'600px',
-    height: '600px',}} onClick={() => window.open('https://maps.app.goo.gl/6MDXSXbnedfN96Tw7')}/>
+   }} onClick={() => window.open('https://maps.app.goo.gl/6MDXSXbnedfN96Tw7')}/>
         </div>
       </div>
     </div>

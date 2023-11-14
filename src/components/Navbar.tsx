@@ -17,13 +17,16 @@ const Navbar = () => {
     const menuOptions =[
         {
             text:'Home',
-            icon:<HomeIcon/>
+            icon:<HomeIcon/>,
+            screenNameId:'#home'
         },{
             text:'About',
-            icon:<InfoIcon/>
+            icon:<InfoIcon/>,
+            screenNameId:'#about'
         },{
             text:"Contact",
-            icon:<ContactSupportRoundedIcon/>
+            icon:<ContactSupportRoundedIcon/>,
+            screenNameId:'#contact'
 
         }
     ]
@@ -43,7 +46,7 @@ const Navbar = () => {
             <div className="navbar-menu-container">
               <HiOutlineBars3 onClick={() => setOpenMenu(true)}/>
             </div>
-            <Drawer open={openMenu} onClose={() => setOpenMenu(false)} anchor='left'>
+            <Drawer open={openMenu} onClose={() => setOpenMenu(false)} anchor='right'>
                 <Box sx={{
                     width:250
                 }}
@@ -53,15 +56,19 @@ const Navbar = () => {
                 >
                   <List>
                      {menuOptions.map((item) => (
+                        <Link smooth to={item.screenNameId} style={{textDecoration:'none', color:'#6a6a6a'}} > 
                         <ListItem key={item.text} disablePadding>
-                            <ListItemButton>
+                            
+                            <ListItemButton  >
                                 <ListItemIcon>
                                     {item.icon}
                                 </ListItemIcon>
                                 <ListItemText primary={item.text}/>
+                              
                             </ListItemButton>
-
+                            
                         </ListItem>
+                        </Link>
                      ))
                      
                       
