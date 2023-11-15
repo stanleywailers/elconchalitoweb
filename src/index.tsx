@@ -17,6 +17,7 @@ import Menu from './pages/Menu';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import App from './App';
+import { TestimonialScreen } from './pages/TestimonialScreen';
 
 const NavBarWrapper = () =>{
   return(
@@ -51,6 +52,9 @@ const router = createBrowserRouter(
   },{
     path: "/about",
     element: <About></About>,
+  },{
+    path: "/testimonial",
+    element: <TestimonialScreen></TestimonialScreen>,
   }
   ]
   
