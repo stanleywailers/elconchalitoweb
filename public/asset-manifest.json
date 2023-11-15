@@ -1,20 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e6ad8f7.css",
-    "main.js": "/static/js/main.9425a803.js",
+    "main.css": "/static/css/main.7d6d4a95.css",
+    "main.js": "/static/js/main.d231035b.js",
     "static/js/787.cd4787e6.chunk.js": "/static/js/787.cd4787e6.chunk.js",
+    "static/media/israel.png": "/static/media/israel.81947c1d1601cc009e9e.png",
     "static/media/elconchalitologo.png": "/static/media/elconchalitologo.9b696c1644013785624a.png",
+    "static/media/loncho.png": "/static/media/loncho.47989cd61cee8b471f93.png",
     "static/media/Ubicacion_1_2.jpg": "/static/media/Ubicacion_1_2.cfa6d9890852105511ee.jpg",
     "static/media/about-background-image.png": "/static/media/about-background-image.b352931cfac5003d66f4.png",
+    "static/media/leo.png": "/static/media/leo.ae56058723caa977fcd9.png",
     "static/media/Logo_1.jpg": "/static/media/Logo_1.fb7b78b4c6706c9f043f.jpg",
     "static/media/home-banner-background.png": "/static/media/home-banner-background.585600da7ff85661555e.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
-    "main.1e6ad8f7.css.map": "/static/css/main.1e6ad8f7.css.map",
-    "main.9425a803.js.map": "/static/js/main.9425a803.js.map",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "main.7d6d4a95.css.map": "/static/css/main.7d6d4a95.css.map",
+    "main.d231035b.js.map": "/static/js/main.d231035b.js.map",
     "787.cd4787e6.chunk.js.map": "/static/js/787.cd4787e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e6ad8f7.css",
-    "static/js/main.9425a803.js"
+    "static/css/main.7d6d4a95.css",
+    "static/js/main.d231035b.js"
   ]
 }

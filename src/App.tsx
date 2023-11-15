@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer"
 import {Helmet} from "react-helmet";
+import { TestimonialScreen } from "./pages/TestimonialScreen";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             </Helmet>
       <Home />
        <About />
+       <TestimonialScreen></TestimonialScreen>
        <Contact />
       <Footer />
     </div>
