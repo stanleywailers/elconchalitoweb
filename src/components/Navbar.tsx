@@ -6,6 +6,7 @@ import {
   NavbarItem,
   NavbarMenu,
   NavbarMenuItem,
+  NavbarMenuToggle,
 } from "@heroui/navbar";
 import { link as linkStyles } from "@heroui/theme";
 import clsx from "clsx";
@@ -42,7 +43,7 @@ export const Navbar = () => {
               <Link
                 className={clsx(
                   linkStyles({ color: "secondary" }),
-                  " text-black data-[active=true]:text-primary data-[active=true]:font-medium",
+                  "font-bold text-black data-[active=true]:text-primary data-[active=true]:font-medium",
                 )}
                 color="primary"
                 href={item.href}
@@ -95,8 +96,8 @@ export const Navbar = () => {
         <Link isExternal href={siteConfig.links.facebook} title="Facebook">
           <FacebookIcon className="text-default-500" />
         </Link>
-        {/*<ThemeSwitch />
-        <NavbarMenuToggle />*/}
+        {/*<ThemeSwitch />*/}
+        <NavbarMenuToggle />
       </NavbarContent>
 
       <NavbarMenu>
@@ -104,14 +105,9 @@ export const Navbar = () => {
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
               <Link
-                color={
-                  index === 2
-                    ? "primary"
-                    : index === siteConfig.navMenuItems.length - 1
-                      ? "danger"
-                      : "foreground"
-                }
-                href="#"
+                className="font-bold"
+                color={"foreground"}
+                href={item.href}
                 size="lg"
               >
                 {item.label}

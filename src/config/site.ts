@@ -8,10 +8,10 @@ export const siteConfig = {
       label: "Home",
       href: "/",
     },
-    //{
-    //  label: "Docs",
-    //  href: "/docs",
-    //},
+    {
+      label: "Menu",
+      href: "/menu",
+    },
     //{
     //  label: "Pricing",
     //  href: "/pricing",
@@ -27,37 +27,37 @@ export const siteConfig = {
   ],
   navMenuItems: [
     {
-      label: "Profile",
-      href: "/profile",
+      label: "Home",
+      href: "/",
     },
     {
-      label: "Dashboard",
-      href: "/dashboard",
+      label: "Menu",
+      href: "/menu",
     },
-    {
-      label: "Projects",
-      href: "/projects",
-    },
-    {
-      label: "Team",
-      href: "/team",
-    },
-    {
-      label: "Calendar",
-      href: "/calendar",
-    },
-    {
-      label: "Settings",
-      href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
-    },
-    {
-      label: "Logout",
-      href: "/logout",
-    },
+    //{
+    //  label: "Projects",
+    //  href: "/projects",
+    //},
+    //{
+    //  label: "Team",
+    //  href: "/team",
+    //},
+    //{
+    //  label: "Calendar",
+    //  href: "/calendar",
+    //},
+    //{
+    //  label: "Settings",
+    //  href: "/settings",
+    //},
+    //{
+    //  label: "Help & Feedback",
+    //  href: "/help-feedback",
+    //},
+    //{
+    //  label: "Logout",
+    //  href: "/logout",
+    //},
   ],
   links: {
     github: "https://github.com/frontio-ai/heroui",

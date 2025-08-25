@@ -1,3 +1,5 @@
-import Logo from "../assets/elconchalitologo.png";
+import Logo from "@/assets/elconchalitologo.png";
+import Fachada from "@/assets/fachada.jpg";
 
-export { Logo };
+export { Fachada, Logo };
+
