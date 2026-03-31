@@ -4,7 +4,7 @@ import HomePage from "./pages/Home/home";
 import LocationPage from "./pages/location";
 import MenuPage from "./pages/menu";
 
-import AboutPage from "@/pages/about";
+import AboutPage from "@/pages/About";
 import BlogPage from "@/pages/blog";
 
 function App() {
